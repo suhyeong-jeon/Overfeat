@@ -46,5 +46,8 @@
 ##### 여기서는 GMS를 사용해 최적의 bounding box를 찾았다는데 이 논문의 핵심내용은 아니라서 패스하겠다. 다음에 논문 발표나 정리를 해야할 기회가 있다면 다시 찾아서 정리하겠다.   
 
 ### 이슈 사항   
-##### 참고한 블로그에서는 layer5 pre-pool의 out_channel을 256이라고 했는데 왜 256으로 잡았는지 아직도 이해가 안된다. 분명 Overfeat모델에서 layer5의 out_channel은 1024인데 말이다. Fine tuning도 layer6부터인데 말이다. 혹시 내가 잘못 이해한것이면 제발 나에게 연락해서 무지함을 깨우쳐주길 바란다. 이거 고민만 2시간 가까이함.
+##### 참고한 블로그에서는 layer5 pre-pool의 out_channel을 256이라고 했는데 왜 256으로 잡았는지 아직도 이해가 안된다. 분명 Overfeat모델에서 layer5의 out_channel은 1024인데 말이다. Fine tuning도 layer6부터인데 말이다. 혹시 내가 잘못 이해한것이면 제발 나에게 연락해서 무지함을 깨우쳐주길 바란다. 이거 고민만 2시간 가까이함.   
 
+### References   
+##### <https://herbwood.tistory.com/7>
+##### <https://medium.com/coinmonks/review-of-overfeat-winner-of-ilsvrc-2013-localization-task-object-detection-a6f8b9044754>
